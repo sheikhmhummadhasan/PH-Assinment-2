@@ -417,4 +417,10 @@ footer h1 a{
 .copywright p{
     color: #fff;
 }
+.t{
+    width: 100px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
 
