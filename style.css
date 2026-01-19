@@ -633,6 +633,13 @@ footer h1 a{
 }
 .frem{
     margin-bottom: 15px;
+    height: 369px;
+}
+.frem h4{
+    margin-bottom: 16px;
+}
+.frem img{
+    margin-bottom: 16px;
 }
 .featurd{
     display: flex;
