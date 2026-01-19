@@ -570,6 +570,9 @@ footer h1 a{
     width: 180px;
     margin-bottom: 40px;
 }
+.card h2{
+    font-size: 3rem;
+}
 /* sectionm-4 */
 .grid{
     margin-top: 0px;
