@@ -35,13 +35,28 @@ nav .menu a{
     color: #ffff;
     text-decoration: none;
 }
+.menu a{
+        animation: color 3s ease-in 0s infinite both;
+    }
+    
+    @keyframes color{
+        0%{
+            color: #F7E93F;
+        }
+        50%{
+            color: #f709fb;
+        }
+        100%{
+            color: #00ff11;
+        }
+    }
 .prime-btn{
-    background: linear-gradient(
+    /* background: linear-gradient(
         45deg,
         #F7E93F,
         #FB09B4,
         #9100F8
-    );
+    ); */
     border: none;
     border-radius: 10000px;
     width: 135px;
@@ -50,7 +65,19 @@ nav .menu a{
     font-size: auto;
     font-weight: 600;
     color: #ffff;
+    animation: btncolor 3s ease-in 0s infinite normal;
 }
+@keyframes btncolor{
+        0%{
+            background-color: #F7E93F;
+        }
+        50%{
+            background-color: #FB09B4;
+        }
+        100%{
+            background-color: #9100F8;
+        }
+    }
 header nav .fa-solid{
     display: none;
 }
@@ -456,12 +483,27 @@ footer h1 a{
         justify-content: center;
         align-items: center;
     }
+    header nav h1{
+        animation: color 3s ease-in 0s infinite both;
+    }
+    @keyframes color{
+        0%{
+            color: #F7E93F;
+        }
+        50%{
+            color: #f709fb;
+        }
+        100%{
+            color: #00ff11;
+        }
+    }
     .menu a{
         display: none;
     }
     .prime-btn{
         display: none;
     }
+    
     nav #bar{
         display: block;
         font-size: 2rem;
