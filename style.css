@@ -242,17 +242,12 @@ header nav .fa-solid{
 }
 .grid-card3 img{
     margin-top: 40px;
-    margin-left: 42px;
 }
 .grid-card3 h3{
     font-size: 1.3rem;
-    margin-top: 16px;
-    margin-left: 42px;
+    margin: 16px 0px;
 }
-.grid-card3 p{
-    margin-top: 16px;
-    margin-left: 40px;
-}
+
 .grid-card4{
     grid-column: span 5;
     grid-row: span 1;
