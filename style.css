@@ -86,7 +86,7 @@ header nav .fa-solid{
     font-weight: 600;
     position: absolute;
     top: 0%;
-    left: 65%;
+    left: 63%;
     z-index: 2;
 }
 .radio{
@@ -450,7 +450,9 @@ footer h1 a{
 
 /* responsive */
 @media screen and (max-width:576px) {
-      
+      body{
+        width: 576px;
+      }
     header nav {
         max-width: 576px;
         max-width: 100%;
@@ -475,9 +477,9 @@ footer h1 a{
     height: 466px;
     max-width: 576px;
     width: 100%;
-    width: 100%;
     background-image: url(assets/hero-bg.png);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .continer{
     height: 100%;
@@ -485,8 +487,9 @@ footer h1 a{
     position: relative;
 }
 .new{
-    margin-top: 50px;
-    margin-right: 50px;
+    position: absolute;
+    margin-top: 60px;
+    left:60%;
 }
 
 .radio{
@@ -499,7 +502,7 @@ footer h1 a{
         #9100F8
     );
     margin-top: 40px;
-    margin-left: 20px;
+    margin-left: 80px;
 }
 .radio img{
     height: 100px;
@@ -547,13 +550,15 @@ footer h1 a{
 }
 /* section-3 */
 .info-1{
+    min-height: 575px;
+    height: 100%;
     max-width: 576px;
     width: 100%;
     background-color: #1A0B2E;
     margin: 50px auto;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
+}
+.about-podcust{
+    margin-bottom: 0px;
 }
 
 .podcust-card{
@@ -564,9 +569,17 @@ footer h1 a{
     max-width: 576px;
     width: 100%;
     padding: 20px;
-
+}
+.card{
+    height:84px;
+    width: 180px;
+    margin-bottom: 40px;
 }
 /* sectionm-4 */
+.grid{
+    margin-top: 0px;
+    padding: 40px 20px;
+}
 .grid-temp{
     display: flex;
     flex-direction: column;
@@ -583,24 +596,57 @@ footer h1 a{
     margin-top: 0px;
 }
 .grid-card1{
-    height: 350px;
+    height: 248px;
+    width: 400px;
+    padding: 29px;
+    background-color: #351165;
+    border-radius: 24px;
+}
+.grid-card1 img{
+    height: 40px;
+    width: 40px;
+}
+.grid-card3 {
+    height: 215px;
+    width: 400px;
+    padding: 29px;
+    border-radius: 24px;
+    background-color: #351165;
 }
 .grid-card3 img{
-    margin-top: 0px;
+    margin: 0px;
+}
+.grid-card3 h3{
+    margin: 16px 0px;
+}
+.grid-card3 p{
+    margin: 0px;
 }
 .grid-card4 i{
     margin-top: 0px;
 }
 .grid-card4{
-    height: 350px;
+    height: 311px;
+    width: 400px;
+    border-radius: 24px;
+    background-color: #351165;
 }
-/* section-4 */
 
+/* section-4 */
+#h22{
+    margin: 40px;
+}
+.frem{
+    margin-bottom: 15px;
+}
 .featurd{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+.meet-host h2{
+    margin: 60px 0px 24px 0px;
 }
 .meet-host{
     margin: 50px auto;
@@ -644,53 +690,28 @@ footer h1 a{
 footer{
     background-image:url(assets/footer-bg.png) ;
     display: flex;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 242px;
-    margin: 120px auto 0px;
+    height: 248px;
     max-width: 576px;
     width: 100%;
+    margin: 0px;
 }
 
 .sochal-links{
+    width: 255px;
+    height: 64px;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
+    flex-wrap: wrap;
 }
 .copywright p{
     color: #fff;
     text-align: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
-.t{
-    /* width: 100px; */
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    justify-content: center;
-}
-.t img{
-    width: 20px;
-    height: auto;
-}
-#logo{
-    background: linear-gradient(
-        47deg,
-        #F7E93F,
-        #FB09B4,
-        #9100F8
-    );
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-
-    background-clip: text;
-    color: transparent;
-}
-.copywright p{
-    color: #e0e0e0;
-}
-
 }
 
